@@ -1,0 +1,498 @@
+0000.000 (0) Opened log file at time: Tue, 08 Nov 2022 18:04:48 +0000 on https://broadhursthome.org
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1 PHP: 7.4.32 (fpm-fcgi, Linux server.thephigroup.com 3.10.0-1127.18.2.el7.x86_64 #1 SMP Sun Jul 26 15:27:06 UTC 2020 x86_64) MySQL: 5.7.40 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 71.1M | 4M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.032 (0) Free space on disk containing Updraft's temporary directory: 195695.4 MB
+0000.033 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB: 1 (schedule: weekly)
+0000.034 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.035 (0) Set semaphore last lock (fd) time to 2022-11-08 18:04:48
+0000.035 (0) Semaphore lock (fd) complete
+0000.036 (0) Backup run: resumption=0, nonce=0e0d81d4cac6, file_nonce=0e0d81d4cac6 begun at=1667930688 (0s ago), job type=backup
+0000.037 (0) Scheduling a resumption (1) after 300 seconds (1667930988) in case this run gets aborted
+0000.046 (0) Checking if we have a zip executable available
+0000.047 (0) Testing: /usr/bin/zip
+0000.054 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.054 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.055 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.055 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.055 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.061 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.062 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.067 (0) Working binary zip found: /usr/bin/zip
+0000.067 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.068 (0) Creation of backups of directories: beginning
+0000.069 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.246 (0) Total entities for the zip file: 2917 directories, 10354 files (0 skipped as non-modified), 170.2 MB
+0000.248 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.250 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.251 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.252 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 10354 files batched, 328 (328) added so far); re-opening (prior size: 0 KB)
+0001.387 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: size is now: 7.30 MB
+0001.388 (0) A useful amount of data was added after this amount of zip processing: 2.2 s (normalised: 2.2 s, rate: 11784.4 KB/s)
+0001.389 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.1728510856628, normalised_time=2.1723606670217, max_time=1.3881750106812, data points known=1, old_max_bytes=26214400, new_max_bytes=72403446)
+0001.390 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 400 files added (on-disk size: 7475 KB)
+0001.391 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 500 files added (on-disk size: 7475 KB)
+0001.393 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 600 files added (on-disk size: 7475 KB)
+0001.394 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 700 files added (on-disk size: 7475 KB)
+0001.395 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 800 files added (on-disk size: 7475 KB)
+0001.396 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 900 files added (on-disk size: 7475 KB)
+0001.397 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 1000 files added (on-disk size: 7475 KB)
+0001.398 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 1100 files added (on-disk size: 7475 KB)
+0001.400 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 1200 files added (on-disk size: 7475 KB)
+0001.401 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 1300 files added (on-disk size: 7475 KB)
+0001.402 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.5 MB, 10354 files batched, 1001 (1329) added so far); re-opening (prior size: 7475 KB)
+0002.030 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: size is now: 12.70 MB
+0002.032 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 1400 files added (on-disk size: 13051.5 KB)
+0002.034 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 1500 files added (on-disk size: 13051.5 KB)
+0002.035 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 1600 files added (on-disk size: 13051.5 KB)
+0002.036 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 1700 files added (on-disk size: 13051.5 KB)
+0002.037 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 1800 files added (on-disk size: 13051.5 KB)
+0002.038 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 1900 files added (on-disk size: 13051.5 KB)
+0002.039 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 2000 files added (on-disk size: 13051.5 KB)
+0002.041 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 2100 files added (on-disk size: 13051.5 KB)
+0002.042 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 2200 files added (on-disk size: 13051.5 KB)
+0002.043 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 2300 files added (on-disk size: 13051.5 KB)
+0002.044 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.8 MB, 10354 files batched, 1001 (2330) added so far); re-opening (prior size: 13051.5 KB)
+0003.080 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: size is now: 19.10 MB
+0003.082 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 2400 files added (on-disk size: 19532.7 KB)
+0003.084 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 2500 files added (on-disk size: 19532.7 KB)
+0003.085 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 2600 files added (on-disk size: 19532.7 KB)
+0003.086 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 2700 files added (on-disk size: 19532.7 KB)
+0003.088 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 2800 files added (on-disk size: 19532.7 KB)
+0003.089 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 2900 files added (on-disk size: 19532.7 KB)
+0003.090 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 3000 files added (on-disk size: 19532.7 KB)
+0003.092 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 3100 files added (on-disk size: 19532.7 KB)
+0003.093 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 3200 files added (on-disk size: 19532.7 KB)
+0003.094 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 3300 files added (on-disk size: 19532.7 KB)
+0003.095 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21 MB, 10354 files batched, 1001 (3331) added so far); re-opening (prior size: 19532.7 KB)
+0004.341 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: size is now: 25.10 MB
+0004.343 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 3400 files added (on-disk size: 25656.8 KB)
+0004.345 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 3500 files added (on-disk size: 25656.8 KB)
+0004.346 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 3600 files added (on-disk size: 25656.8 KB)
+0004.347 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 3700 files added (on-disk size: 25656.8 KB)
+0004.348 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 3800 files added (on-disk size: 25656.8 KB)
+0004.350 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 3900 files added (on-disk size: 25656.8 KB)
+0004.351 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 4000 files added (on-disk size: 25656.8 KB)
+0004.352 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 4100 files added (on-disk size: 25656.8 KB)
+0004.353 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 4200 files added (on-disk size: 25656.8 KB)
+0004.355 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 4300 files added (on-disk size: 25656.8 KB)
+0004.355 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.3 MB, 10354 files batched, 1001 (4332) added so far); re-opening (prior size: 25656.8 KB)
+0005.068 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 4400 files added (on-disk size: 30021.1 KB)
+0005.070 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 4500 files added (on-disk size: 30021.1 KB)
+0005.071 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 4600 files added (on-disk size: 30021.1 KB)
+0005.072 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 4700 files added (on-disk size: 30021.1 KB)
+0005.074 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 4800 files added (on-disk size: 30021.1 KB)
+0005.075 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 4900 files added (on-disk size: 30021.1 KB)
+0005.076 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 5000 files added (on-disk size: 30021.1 KB)
+0005.077 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 5100 files added (on-disk size: 30021.1 KB)
+0005.078 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 5200 files added (on-disk size: 30021.1 KB)
+0005.080 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 5300 files added (on-disk size: 30021.1 KB)
+0005.080 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.8 MB, 10354 files batched, 1001 (5333) added so far); re-opening (prior size: 30021.1 KB)
+0005.832 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: size is now: 35.50 MB
+0005.834 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 5400 files added (on-disk size: 36363.8 KB)
+0005.835 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 5500 files added (on-disk size: 36363.8 KB)
+0005.836 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 5600 files added (on-disk size: 36363.8 KB)
+0005.838 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 5700 files added (on-disk size: 36363.8 KB)
+0005.839 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 5800 files added (on-disk size: 36363.8 KB)
+0005.840 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 5900 files added (on-disk size: 36363.8 KB)
+0005.841 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 6000 files added (on-disk size: 36363.8 KB)
+0005.843 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 6100 files added (on-disk size: 36363.8 KB)
+0005.844 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 6200 files added (on-disk size: 36363.8 KB)
+0005.845 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 6300 files added (on-disk size: 36363.8 KB)
+0005.846 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17 MB, 10354 files batched, 1001 (6334) added so far); re-opening (prior size: 36363.8 KB)
+0006.916 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 6400 files added (on-disk size: 42477.8 KB)
+0006.918 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 6500 files added (on-disk size: 42477.8 KB)
+0006.919 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 6600 files added (on-disk size: 42477.8 KB)
+0006.920 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 6700 files added (on-disk size: 42477.8 KB)
+0006.922 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 6800 files added (on-disk size: 42477.8 KB)
+0006.923 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 6900 files added (on-disk size: 42477.8 KB)
+0006.924 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 7000 files added (on-disk size: 42477.8 KB)
+0006.926 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 7100 files added (on-disk size: 42477.8 KB)
+0006.927 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 7200 files added (on-disk size: 42477.8 KB)
+0006.928 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 7300 files added (on-disk size: 42477.8 KB)
+0006.929 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.7 MB, 10354 files batched, 1001 (7335) added so far); re-opening (prior size: 42477.8 KB)
+0008.079 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 7400 files added (on-disk size: 48250.8 KB)
+0008.082 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 7500 files added (on-disk size: 48250.8 KB)
+0008.083 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 7600 files added (on-disk size: 48250.8 KB)
+0008.085 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 7700 files added (on-disk size: 48250.8 KB)
+0008.087 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 7800 files added (on-disk size: 48250.8 KB)
+0008.089 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 7900 files added (on-disk size: 48250.8 KB)
+0008.091 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 8000 files added (on-disk size: 48250.8 KB)
+0008.093 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 8100 files added (on-disk size: 48250.8 KB)
+0008.095 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 8200 files added (on-disk size: 48250.8 KB)
+0008.097 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 8300 files added (on-disk size: 48250.8 KB)
+0008.098 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.9 MB, 10354 files batched, 1001 (8336) added so far); re-opening (prior size: 48250.8 KB)
+0008.850 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 8400 files added (on-disk size: 51500.8 KB)
+0008.852 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 8500 files added (on-disk size: 51500.8 KB)
+0008.853 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 8600 files added (on-disk size: 51500.8 KB)
+0008.855 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 8700 files added (on-disk size: 51500.8 KB)
+0008.856 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 8800 files added (on-disk size: 51500.8 KB)
+0008.857 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 8900 files added (on-disk size: 51500.8 KB)
+0008.859 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 9000 files added (on-disk size: 51500.8 KB)
+0008.860 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 9100 files added (on-disk size: 51500.8 KB)
+0008.861 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 9200 files added (on-disk size: 51500.8 KB)
+0008.863 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 9300 files added (on-disk size: 51500.8 KB)
+0008.863 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.9 MB, 10354 files batched, 1001 (9337) added so far); re-opening (prior size: 51500.8 KB)
+0009.577 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 9400 files added (on-disk size: 53362.2 KB)
+0009.579 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 9500 files added (on-disk size: 53362.2 KB)
+0009.580 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 9600 files added (on-disk size: 53362.2 KB)
+0009.582 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 9700 files added (on-disk size: 53362.2 KB)
+0009.583 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 9800 files added (on-disk size: 53362.2 KB)
+0009.584 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 9900 files added (on-disk size: 53362.2 KB)
+0009.586 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 10000 files added (on-disk size: 53362.2 KB)
+0009.587 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 10100 files added (on-disk size: 53362.2 KB)
+0009.588 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 10200 files added (on-disk size: 53362.2 KB)
+0009.590 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.tmp: 10300 files added (on-disk size: 53362.2 KB)
+0009.590 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14 MB, 10354 files batched, 1001 (10338) added so far); re-opening (prior size: 53362.2 KB)
+0010.636 (0) Creating zip file manifest (backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip.list-temp.tmp)
+0010.652 (0) Successfully created zip file manifest (size: 915668)
+0011.175 (0) Created plugins zip (0) - 55882 KB in 11.1 s (5045.2 KB/s) (sha1: e55144f8d28b6de5d93d8447e12f5e2967c40d03, sha256: cab44434360690cb518d80d8a69bd75323a8e51ff3b233dcdf990a472155e12e)
+0011.182 (0) Cloud backup selection (1/1): s3 with instance (1/1) (last)
+0011.182 (0) Beginning dispatch of backup to remote (s3) (instance identifier s-e38dc7841e5ffe5d935d7c3be8e76027)
+0011.200 (0) Amazon S3: Set region (UpdraftPlus_S3): us-west-2
+0011.201 (0) Amazon S3: Set endpoint: s3-us-west-2.amazonaws.com
+0011.201 (0) Amazon S3: upload (us-west-2): backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip (chunks: 11) -> s3://broadhursthomebackup/backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip
+0011.245 (0) Amazon S3: chunked upload: got multipart ID: t3nwEWqzqMQiECqZNI8B4lIscB0iEZbyp6AM_ilIXmCRtwM2tRYyUd3bmcOkmow68Rh4_rWZTjJEUB09EblNGdYWV3bdT7bogK08v_1YWuo-
+0011.487 (0) S3 chunked upload: 9.1 % uploaded (1, 6db983bf672aec344f4f1c9f87a62991)
+0011.653 (0) S3 chunked upload: 18.2 % uploaded (2, 9f7169bcfad224e1ba9fb80a5120d214)
+0011.890 (0) S3 chunked upload: 27.3 % uploaded (3, 6c1713c10db3aa5ffea0e7106e1d5044)
+0012.144 (0) S3 chunked upload: 36.4 % uploaded (4, 77d7772e2dac6bf24f5c1501292abc14)
+0012.372 (0) S3 chunked upload: 45.5 % uploaded (5, 93d154922bb6dad79c75936c65cf4c5d)
+0012.623 (0) S3 chunked upload: 54.5 % uploaded (6, 182d3890b941709318b9c62ed21dcc8a)
+0013.036 (0) S3 chunked upload: 63.6 % uploaded (7, 22a20433a938bb4e3ce3c1ae143d1005)
+0013.270 (0) S3 chunked upload: 72.7 % uploaded (8, 16c3fdb77a8b1ab717ede2b7c5d122ca)
+0013.619 (0) S3 chunked upload: 81.8 % uploaded (9, bc5f6c129f5d3e3d01fa3856d3cdd755)
+0014.086 (0) S3 chunked upload: 90.9 % uploaded (10, a71ae9424f1b4576b24b864e689bca53)
+0014.407 (0) S3 chunked upload: 100 % uploaded (11, b1331604ca567f16e94d9be67db5e03e)
+0014.408 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0014.537 (0) Amazon S3: upload (plugins0): re-assembly succeeded
+0014.538 (0) Recording as successfully uploaded: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip
+0014.547 (0) Deleting local file: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip: OK
+0014.550 (0) Beginning creation of dump of themes (split every: 400 MB)
+0014.600 (0) Total entities for the zip file: 373 directories, 1063 files (0 skipped as non-modified), 32.2 MB
+0014.601 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0014.603 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0014.604 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0014.605 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0014.607 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0014.608 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0014.609 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0014.611 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0014.612 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0014.613 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0014.614 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (29.5 MB, 1063 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0015.902 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip.tmp: size is now: 12.50 MB
+0016.060 (0) Creating zip file manifest (backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip.list-temp.tmp)
+0016.062 (0) Successfully created zip file manifest (size: 85616)
+0016.203 (0) Created themes zip (0) - 15062.8 KB in 1.6 s (9293.3 KB/s) (sha1: bc6987ec349e7f11433203d557e2e80bfdeb5755, sha256: 7e1acd4f10a9c5c2a4d4b05d702bb4e5a9103cdf40b2168b69911cab0f836c7e)
+0016.205 (0) Cloud backup selection (1/1): s3 with instance (1/1) (last)
+0016.205 (0) Beginning dispatch of backup to remote (s3) (instance identifier s-e38dc7841e5ffe5d935d7c3be8e76027)
+0016.219 (0) Amazon S3: Set region (UpdraftPlus_S3): us-west-2
+0016.219 (0) Amazon S3: Set endpoint: s3-us-west-2.amazonaws.com
+0016.219 (0) Amazon S3: upload (us-west-2): backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip (chunks: 3) -> s3://broadhursthomebackup/backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip
+0016.254 (0) Amazon S3: chunked upload: got multipart ID: alnWsrwy45kk1Yb04giIzYzUEECpkGdRMm8o7tL5JCcJvajgCUwhHPk7IazAwBTKgIWBPN728ZLyY8ixGhAFmBQwhmubBlmFPnedmdVPRWo-
+0016.466 (0) S3 chunked upload: 33.3 % uploaded (1, ac79386c74557b808d79514a9f8b9445)
+0016.639 (0) S3 chunked upload: 66.7 % uploaded (2, ea0d5eae7467839b794e9600d06419e7)
+0016.824 (0) S3 chunked upload: 100 % uploaded (3, 53a1c1e585fc1026aa4c1d9f9a25adab)
+0016.825 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0016.916 (0) Amazon S3: upload (themes0): re-assembly succeeded
+0016.917 (0) Recording as successfully uploaded: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip
+0016.920 (0) Deleting local file: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip: OK
+0016.921 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0016.922 (0) Looking for candidates to backup in: /home/broadhursthome/public_html/wp-content/uploads
+0016.922 (0) finding files: 2022: adding to list (1)
+0016.922 (0) finding files: elementor: adding to list (2)
+0016.923 (0) finding files: wpcf7_uploads: adding to list (3)
+0016.923 (0) finding files: wp-file-manager-pro: adding to list (4)
+0016.923 (0) finding files: groups-file-access: adding to list (5)
+0016.924 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0016.960 (0) Total entities for the zip file: 15 directories, 252 files (0 skipped as non-modified), 28.2 MB
+0016.963 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0016.964 (0) Zip: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.303 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-uploads.zip.tmp: size is now: 27.80 MB
+0017.306 (0) Creating zip file manifest (backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-uploads.zip.list-temp.tmp)
+0017.307 (0) Successfully created zip file manifest (size: 13699)
+0017.572 (0) Created uploads zip (0) - 28458 KB in 0.6 s (46143.5 KB/s) (sha1: 2c687d5307ffb7e6cd988c7288f1d20b381e29f0, sha256: b192f309b2f7daa3e31c22cecae3230aeaf0799f878ff78c4e9557fcbd943bdd)
+0017.574 (0) Cloud backup selection (1/1): s3 with instance (1/1) (last)
+0017.575 (0) Beginning dispatch of backup to remote (s3) (instance identifier s-e38dc7841e5ffe5d935d7c3be8e76027)
+0017.589 (0) Amazon S3: Set region (UpdraftPlus_S3): us-west-2
+0017.589 (0) Amazon S3: Set endpoint: s3-us-west-2.amazonaws.com
+0017.589 (0) Amazon S3: upload (us-west-2): backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-uploads.zip (chunks: 6) -> s3://broadhursthomebackup/backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-uploads.zip
+0017.626 (0) Amazon S3: chunked upload: got multipart ID: BwmnmoyF2eVUvYSVdbMsfLcBRsthW5P8BV7gYN6UHMhnx.GKbidjPSbS8Jte_EQf.MXn9WyhcD2fY0r0Vz0tCL0hcyDk_bam0yjpfiHrtQo-
+0017.865 (0) S3 chunked upload: 16.7 % uploaded (1, ac6e1e6af25bf3b7e93278989c3e95fe)
+0018.055 (0) S3 chunked upload: 33.3 % uploaded (2, 6d26c941847702d1a7eef724d77c438c)
+0018.288 (0) S3 chunked upload: 50 % uploaded (3, e9856fe1934a64a279dafe8b4bb0ca81)
+0018.486 (0) S3 chunked upload: 66.7 % uploaded (4, 4cc6f25dfdb1b04c4818e4ab60f027ee)
+0018.714 (0) S3 chunked upload: 83.3 % uploaded (5, 2d497c3ea197921dadac79b1723c0591)
+0018.887 (0) S3 chunked upload: 100 % uploaded (6, 5620ad7c3f1cca98ab3c20cff3e1796e)
+0018.888 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0019.048 (0) Amazon S3: upload (uploads0): re-assembly succeeded
+0019.049 (0) Recording as successfully uploaded: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-uploads.zip
+0019.054 (0) Deleting local file: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-uploads.zip: OK
+0019.056 (0) Beginning backup of other directories found in the content directory (index: 0)
+0019.057 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0019.057 (0) Looking for candidates to backup in: /home/broadhursthome/public_html/wp-content
+0019.057 (0) finding files: themes: skipping: this is the themes directory
+0019.057 (0) finding files: index.php: adding to list (1)
+0019.058 (0) finding files: plugins: skipping: this is the plugins directory
+0019.058 (0) finding files: uploads: skipping: this is the uploads directory
+0019.058 (0) finding files: upgrade: skipping: excluded by options
+0019.059 (0) finding files: fonts: adding to list (2)
+0019.059 (0) finding files: updraft: skipping: this is the updraft directory
+0019.059 (0) finding files: mu-plugins: adding to list (3)
+0019.092 (0) Total entities for the zip file: 2 directories, 7 files (0 skipped as non-modified), 0.5 MB
+0019.118 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-others.zip.tmp: size is now: 0.20 MB
+0019.119 (0) Creating zip file manifest (backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-others.zip.list-temp.tmp)
+0019.120 (0) Successfully created zip file manifest (size: 262)
+0019.123 (0) Created others zip (0) - 166.1 KB in 0 s (5321.1 KB/s) (sha1: cea8c1a73b8b5e8414ae03c0be23c0881ced54fc, sha256: 6cb308b96cefac8f5b40be5841d4d60c402d47a2e1184ce5ab2fa9f320c55708)
+0019.124 (0) Cloud backup selection (1/1): s3 with instance (1/1) (last)
+0019.125 (0) Beginning dispatch of backup to remote (s3) (instance identifier s-e38dc7841e5ffe5d935d7c3be8e76027)
+0019.140 (0) Amazon S3: Set region (UpdraftPlus_S3): us-west-2
+0019.141 (0) Amazon S3: Set endpoint: s3-us-west-2.amazonaws.com
+0019.141 (0) Amazon S3: upload (us-west-2): backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-others.zip (chunks: 1) -> s3://broadhursthomebackup/backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-others.zip
+0019.253 (0) Amazon S3: regular upload: success
+0019.253 (0) Recording as successfully uploaded: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-others.zip
+0019.254 (0) Deleting local file: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-others.zip: OK
+0019.257 (0) Saving backup status to database (elements: 8)
+0019.258 (0) Beginning creation of database dump (WordPress DB)
+0019.258 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0019.259 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0019.274 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1544 bytes total)
+0019.275 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0019.286 (0) Table wp_options: Total expected rows (via COUNT): 349
+0019.286 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.325 (0) Table wp_options: Rows added in this batch (next record: 45550): 345 (uncompressed bytes in this segment=1520925) in 0.04 seconds
+0019.328 (0) Table wp_options: finishing file(s) (2, 213.9 KB)
+0019.330 (0) Table wp_users: Total expected rows (via COUNT): 5
+0019.330 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.332 (0) Table wp_users: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2121) in 0.00 seconds
+0019.333 (0) Table wp_users: finishing file(s) (2, 1 KB)
+0019.336 (0) Table wp_usermeta: Total expected rows (via COUNT): 84
+0019.336 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.338 (0) Table wp_usermeta: Rows added in this batch (next record: 86): 84 (uncompressed bytes in this segment=7543) in 0.00 seconds
+0019.340 (0) Table wp_usermeta: finishing file(s) (2, 2.5 KB)
+0019.342 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 7
+0019.343 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.344 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 1083): 7 (uncompressed bytes in this segment=3857) in 0.00 seconds
+0019.346 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.9 KB)
+0019.348 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0019.349 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.00 seconds
+0019.350 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0019.352 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 1
+0019.352 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.353 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=689) in 0.00 seconds
+0019.355 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0019.357 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 21
+0019.357 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.358 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 21): 21 (uncompressed bytes in this segment=2934) in 0.00 seconds
+0019.360 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.8 KB)
+0019.362 (0) Table wp_commentmeta: Total expected rows (via COUNT): 48
+0019.362 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.364 (0) Table wp_commentmeta: Rows added in this batch (next record: 48): 48 (uncompressed bytes in this segment=2849) in 0.00 seconds
+0019.366 (0) Table wp_commentmeta: finishing file(s) (2, 0.7 KB)
+0019.368 (0) Table wp_comments: Total expected rows (via COUNT): 24
+0019.368 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.370 (0) Table wp_comments: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=15267) in 0.00 seconds
+0019.371 (0) Table wp_comments: finishing file(s) (2, 2.8 KB)
+0019.373 (0) Table wp_links: Total expected rows (via COUNT): 0
+0019.374 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0019.376 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0019.388 (0) Table wp_postmeta: Total expected rows (approximate): 7796
+0019.973 (0) Table wp_postmeta: Rows added in this batch (next record: 8894): 7796 (uncompressed bytes in this segment=37988920) in 0.60 seconds
+0019.976 (0) Table wp_postmeta: finishing file(s) (2, 2248.3 KB)
+0019.984 (0) Table wp_posts: Total expected rows (approximate): 1625
+0020.264 (0) Table wp_posts: Rows added in this batch (next record: 1760): 1625 (uncompressed bytes in this segment=21492272) in 0.29 seconds
+0020.267 (0) Table wp_posts: finishing file(s) (2, 1259 KB)
+0020.269 (0) Table wp_tec_events: Total expected rows (via COUNT): 5
+0020.269 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.271 (0) Table wp_tec_events: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1779) in 0.00 seconds
+0020.273 (0) Table wp_tec_events: finishing file(s) (2, 0.7 KB)
+0020.274 (0) Table wp_tec_occurrences: Total expected rows (via COUNT): 5
+0020.275 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.275 (0) Table wp_tec_occurrences: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1904) in 0.00 seconds
+0020.277 (0) Table wp_tec_occurrences: finishing file(s) (2, 0.8 KB)
+0020.279 (0) Table wp_term_relationships: Total expected rows (approximate): 29
+0020.280 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 29 (uncompressed bytes in this segment=1107) in 0.00 seconds
+0020.282 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0020.284 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 10
+0020.284 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.285 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1260) in 0.00 seconds
+0020.288 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0020.290 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0020.291 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0020.293 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0020.295 (0) Table wp_terms: Total expected rows (via COUNT): 10
+0020.295 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.296 (0) Table wp_terms: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1028) in 0.00 seconds
+0020.298 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0020.299 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0020.300 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=529) in 0.00 seconds
+0020.302 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0020.304 (0) Table wp_groups_capability: Total expected rows (via COUNT): 128
+0020.305 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.306 (0) Table wp_groups_capability: Rows added in this batch (next record: 128): 128 (uncompressed bytes in this segment=7859) in 0.00 seconds
+0020.309 (0) Table wp_groups_capability: finishing file(s) (2, 1.3 KB)
+0020.310 (0) Table wp_groups_file: Total expected rows (via COUNT): 12
+0020.311 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.312 (0) Table wp_groups_file: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=3570) in 0.00 seconds
+0020.314 (0) Table wp_groups_file: finishing file(s) (2, 1 KB)
+0020.315 (0) Table wp_groups_file_access: Total expected rows (approximate): 0
+0020.316 (0) Table wp_groups_file_access: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=673) in 0.00 seconds
+0020.318 (0) Table wp_groups_file_access: finishing file(s) (2, 0.4 KB)
+0020.319 (0) Table wp_groups_file_group: Total expected rows (approximate): 18
+0020.320 (0) Table wp_groups_file_group: Rows added in this batch (next record: 1000): 18 (uncompressed bytes in this segment=1665) in 0.00 seconds
+0020.322 (0) Table wp_groups_file_group: finishing file(s) (2, 0.5 KB)
+0020.324 (0) Table wp_groups_file_meta: Total expected rows (via COUNT): 0
+0020.325 (0) Table wp_groups_file_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=693) in 0.00 seconds
+0020.327 (0) Table wp_groups_file_meta: finishing file(s) (2, 0.4 KB)
+0020.329 (0) Table wp_groups_group: Total expected rows (via COUNT): 7
+0020.330 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.331 (0) Table wp_groups_group: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1140) in 0.00 seconds
+0020.333 (0) Table wp_groups_group: finishing file(s) (2, 0.5 KB)
+0020.334 (0) Table wp_groups_group_capability: Total expected rows (approximate): 15
+0020.336 (0) Table wp_groups_group_capability: Rows added in this batch (next record: 1000): 15 (uncompressed bytes in this segment=813) in 0.00 seconds
+0020.337 (0) Table wp_groups_group_capability: finishing file(s) (2, 0.4 KB)
+0020.339 (0) Table wp_groups_newsletters_queue: Total expected rows (via COUNT): 0
+0020.339 (0) Table wp_groups_newsletters_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.00 seconds
+0020.341 (0) Table wp_groups_newsletters_queue: finishing file(s) (2, 0.4 KB)
+0020.343 (0) Table wp_groups_newsletters_subscriber: Total expected rows (via COUNT): 0
+0020.343 (0) Table wp_groups_newsletters_subscriber: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=873) in 0.00 seconds
+0020.345 (0) Table wp_groups_newsletters_subscriber: finishing file(s) (2, 0.4 KB)
+0020.346 (0) Table wp_groups_user_capability: Total expected rows (approximate): 0
+0020.347 (0) Table wp_groups_user_capability: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=601) in 0.00 seconds
+0020.349 (0) Table wp_groups_user_capability: finishing file(s) (2, 0.3 KB)
+0020.350 (0) Table wp_groups_user_group: Total expected rows (approximate): 11
+0020.351 (0) Table wp_groups_user_group: Rows added in this batch (next record: 1000): 11 (uncompressed bytes in this segment=693) in 0.00 seconds
+0020.352 (0) Table wp_groups_user_group: finishing file(s) (2, 0.4 KB)
+0020.354 (0) Table wp_rp4wp_cache: Total expected rows (approximate): 36
+0020.355 (0) Table wp_rp4wp_cache: Rows added in this batch (next record: 1000): 36 (uncompressed bytes in this segment=1899) in 0.00 seconds
+0020.356 (0) Table wp_rp4wp_cache: finishing file(s) (2, 0.7 KB)
+0020.358 (0) Table wp_wpfm_backup: Total expected rows (via COUNT): 0
+0020.359 (0) Table wp_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=514) in 0.00 seconds
+0020.360 (0) Table wp_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0020.361 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_options.table.tmpr45551.gz (1/32/fopen): adding to final database dump
+0020.363 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_options.table.gz (2/32/fopen): adding to final database dump
+0020.363 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_users.table.tmpr6.gz (3/32/fopen): adding to final database dump
+0020.363 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_users.table.gz (4/32/fopen): adding to final database dump
+0020.364 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_usermeta.table.tmpr87.gz (5/32/fopen): adding to final database dump
+0020.364 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_usermeta.table.gz (6/32/fopen): adding to final database dump
+0020.364 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_actionscheduler_actions.table.tmpr1084.gz (7/32/fopen): adding to final database dump
+0020.365 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_actionscheduler_actions.table.gz (8/32/fopen): adding to final database dump
+0020.365 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/32/fopen): adding to final database dump
+0020.365 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_actionscheduler_claims.table.gz (10/32/fopen): adding to final database dump
+0020.366 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_actionscheduler_groups.table.tmpr2.gz (11/32/fopen): adding to final database dump
+0020.366 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_actionscheduler_groups.table.gz (12/32/fopen): adding to final database dump
+0020.366 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_actionscheduler_logs.table.tmpr22.gz (13/32/fopen): adding to final database dump
+0020.366 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_actionscheduler_logs.table.gz (14/32/fopen): adding to final database dump
+0020.367 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_commentmeta.table.tmpr49.gz (15/32/fopen): adding to final database dump
+0020.367 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_commentmeta.table.gz (16/32/fopen): adding to final database dump
+0020.367 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_comments.table.tmpr25.gz (17/32/fopen): adding to final database dump
+0020.368 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_comments.table.gz (18/32/fopen): adding to final database dump
+0020.368 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_links.table.tmpr0.gz (19/32/fopen): adding to final database dump
+0020.368 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_links.table.gz (20/32/fopen): adding to final database dump
+0020.369 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_postmeta.table.tmpr8895.gz (21/32/fopen): adding to final database dump
+0020.383 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_postmeta.table.gz (22/32/fopen): adding to final database dump
+0020.383 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_posts.table.tmpr1761.gz (23/32/fopen): adding to final database dump
+0020.392 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_posts.table.gz (24/32/fopen): adding to final database dump
+0020.392 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_tec_events.table.tmpr6.gz (25/32/fopen): adding to final database dump
+0020.392 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_tec_events.table.gz (26/32/fopen): adding to final database dump
+0020.393 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_tec_occurrences.table.tmpr6.gz (27/32/fopen): adding to final database dump
+0020.393 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_tec_occurrences.table.gz (28/32/fopen): adding to final database dump
+0020.393 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_term_relationships.table.tmpr100001.gz (29/32/fopen): adding to final database dump
+0020.393 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_term_relationships.table.gz (30/32/fopen): adding to final database dump
+0020.394 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_term_taxonomy.table.tmpr11.gz (31/32/fopen): adding to final database dump
+0020.394 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_term_taxonomy.table.gz (32/32/fopen): adding to final database dump
+0020.394 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_termmeta.table.tmpr0.gz (33/32/fopen): adding to final database dump
+0020.395 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_termmeta.table.gz (34/32/fopen): adding to final database dump
+0020.395 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_terms.table.tmpr11.gz (35/32/fopen): adding to final database dump
+0020.395 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_terms.table.gz (36/32/fopen): adding to final database dump
+0020.396 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_e_events.table.tmpr0.gz (37/32/fopen): adding to final database dump
+0020.396 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_e_events.table.gz (38/32/fopen): adding to final database dump
+0020.396 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_capability.table.tmpr129.gz (39/32/fopen): adding to final database dump
+0020.396 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_capability.table.gz (40/32/fopen): adding to final database dump
+0020.397 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_file.table.tmpr13.gz (41/32/fopen): adding to final database dump
+0020.397 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_file.table.gz (42/32/fopen): adding to final database dump
+0020.397 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_file_access.table.tmpr1.gz (43/32/fopen): adding to final database dump
+0020.398 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_file_access.table.gz (44/32/fopen): adding to final database dump
+0020.398 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_file_group.table.tmpr1001.gz (45/32/fopen): adding to final database dump
+0020.398 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_file_group.table.gz (46/32/fopen): adding to final database dump
+0020.399 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_file_meta.table.tmpr0.gz (47/32/fopen): adding to final database dump
+0020.399 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_file_meta.table.gz (48/32/fopen): adding to final database dump
+0020.399 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_group.table.tmpr8.gz (49/32/fopen): adding to final database dump
+0020.399 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_group.table.gz (50/32/fopen): adding to final database dump
+0020.400 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_group_capability.table.tmpr1001.gz (51/32/fopen): adding to final database dump
+0020.400 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_group_capability.table.gz (52/32/fopen): adding to final database dump
+0020.400 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_newsletters_queue.table.tmpr0.gz (53/32/fopen): adding to final database dump
+0020.401 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_newsletters_queue.table.gz (54/32/fopen): adding to final database dump
+0020.401 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_newsletters_subscriber.table.tmpr0.gz (55/32/fopen): adding to final database dump
+0020.401 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_newsletters_subscriber.table.gz (56/32/fopen): adding to final database dump
+0020.402 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_user_capability.table.tmpr1.gz (57/32/fopen): adding to final database dump
+0020.402 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_user_capability.table.gz (58/32/fopen): adding to final database dump
+0020.402 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_user_group.table.tmpr1001.gz (59/32/fopen): adding to final database dump
+0020.402 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_groups_user_group.table.gz (60/32/fopen): adding to final database dump
+0020.403 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_rp4wp_cache.table.tmpr1001.gz (61/32/fopen): adding to final database dump
+0020.403 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_rp4wp_cache.table.gz (62/32/fopen): adding to final database dump
+0020.403 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_wpfm_backup.table.tmpr0.gz (63/32/fopen): adding to final database dump
+0020.404 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db-table-wp_wpfm_backup.table.gz (64/32/fopen): adding to final database dump
+0020.405 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db.gz: finished writing out complete database file (3742 KB)
+0020.444 (0) Total database tables backed up: 32 (backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db.gz, size: 3831887, sha1: 0348a97d79b56fb2b92d9396ad8ba5d7c09fc850, sha256: adf6f8c8906920cbf52e8d12f227261acf0805605f50d598c38611039fdd2daf)
+0020.447 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-plugins.zip: plugins: This file has already been successfully uploaded
+0020.448 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-themes.zip: themes: This file has already been successfully uploaded
+0020.448 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-uploads.zip: uploads: This file has already been successfully uploaded
+0020.448 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-others.zip: others: This file has already been successfully uploaded
+0020.448 (0) backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db.gz: db: This file has not yet been successfully uploaded: will queue
+0020.449 (0) Saving backup history. Total backup size: 100.9 MB
+0020.450 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0020.451 (0) Cloud backup selection (1/1): s3 with instance (1/1) (last)
+0020.452 (0) Beginning dispatch of backup to remote (s3) (instance identifier s-e38dc7841e5ffe5d935d7c3be8e76027)
+0020.465 (0) Amazon S3: Set region (UpdraftPlus_S3): us-west-2
+0020.466 (0) Amazon S3: Set endpoint: s3-us-west-2.amazonaws.com
+0020.466 (0) Amazon S3: upload (us-west-2): backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db.gz (chunks: 1) -> s3://broadhursthomebackup/backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db.gz
+0020.667 (0) Amazon S3: regular upload: success
+0020.667 (0) Recording as successfully uploaded: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db.gz
+0020.669 (0) Deleting local file: backup_2022-11-08-1004_Broadhurst_0e0d81d4cac6-db.gz: OK
+0020.670 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0020.671 (0) Number of backup sets in history: 3; groups (db): 1
+0020.671 (0) Examining (for databases) backup set with group_id=0, nonce=0e0d81d4cac6, datestamp=1667930688 (Nov 08 2022 18:04:48)
+0020.671 (0) This backup set is the backup set just made, so will not be deleted.
+0020.671 (0) Examining (for databases) backup set with group_id=0, nonce=d5d3cdb38b93, datestamp=1667541480 (Nov 04 2022 05:58:00)
+0020.671 (0) This backup set (1667541480) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0020.671 (0) Examining (for databases) backup set with group_id=0, nonce=204f00d6ef49, datestamp=1667520952 (Nov 04 2022 00:15:52)
+0020.671 (0) 1667520952: db: this set includes a database (backup_2022-11-03-1715_Broadhurst_204f00d6ef49-db.gz); db count is now 2
+0020.671 (0) 1667520952: db: over retain limit (2); will delete this database
+0020.671 (0) Delete file: backup_2022-11-03-1715_Broadhurst_204f00d6ef49-db.gz, service=s3
+0020.672 (0) Amazon S3: Delete remote: bucket=broadhursthomebackup, URI=backup_2022-11-03-1715_Broadhurst_204f00d6ef49-db.gz
+0020.709 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0020.709 (0) Number of backup sets in history: 3; groups (files): 1
+0020.709 (0) Examining (for files) backup set with nonce=0e0d81d4cac6, datestamp=1667930688 (Nov 08 2022 18:04:48)
+0020.709 (0) This backup set is the backup set just made, so will not be deleted.
+0020.709 (0) This backup set is the backup set just made, so will not be deleted.
+0020.709 (0) This backup set is the backup set just made, so will not be deleted.
+0020.710 (0) This backup set is the backup set just made, so will not be deleted.
+0020.710 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0020.710 (0) Examining (for files) backup set with nonce=d5d3cdb38b93, datestamp=1667541480 (Nov 04 2022 05:58:00)
+0020.710 (0) This backup set (1667541480) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0020.710 (0) This backup set (1667541480) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0020.710 (0) This backup set (1667541480) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0020.710 (0) This backup set (1667541480) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0020.710 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0020.710 (0) Examining (for files) backup set with nonce=204f00d6ef49, datestamp=1667520952 (Nov 04 2022 00:15:52)
+0020.710 (0) plugins: over retain limit (2); will delete this file entity
+0020.710 (0) themes: over retain limit (2); will delete this file entity
+0020.710 (0) uploads: over retain limit (2); will delete this file entity
+0020.710 (0) others: over retain limit (2); will delete this file entity
+0020.710 (0) Delete file: backup_2022-11-03-1715_Broadhurst_204f00d6ef49-plugins.zip, service=s3
+0020.710 (0) Delete file: backup_2022-11-03-1715_Broadhurst_204f00d6ef49-themes.zip, service=s3
+0020.710 (0) Delete file: backup_2022-11-03-1715_Broadhurst_204f00d6ef49-uploads.zip, service=s3
+0020.711 (0) Delete file: backup_2022-11-03-1715_Broadhurst_204f00d6ef49-others.zip, service=s3
+0020.711 (0) Amazon S3: Delete remote: bucket=broadhursthomebackup, URI=backup_2022-11-03-1715_Broadhurst_204f00d6ef49-plugins.zip
+0020.781 (0) Amazon S3: Delete remote: bucket=broadhursthomebackup, URI=backup_2022-11-03-1715_Broadhurst_204f00d6ef49-themes.zip
+0020.824 (0) Amazon S3: Delete remote: bucket=broadhursthomebackup, URI=backup_2022-11-03-1715_Broadhurst_204f00d6ef49-uploads.zip
+0020.889 (0) Amazon S3: Delete remote: bucket=broadhursthomebackup, URI=backup_2022-11-03-1715_Broadhurst_204f00d6ef49-others.zip
+0020.929 (0) This backup set is now empty; will remove from history
+0020.929 (0) Deleting log file (log.204f00d6ef49.txt)
+0020.929 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0020.930 (0) Resume backup (0e0d81d4cac6, 0): finish run
+0020.931 (0) Decremented the semaphore (fd) by 1
+0020.931 (0) Semaphore (fd) unlocked
+0020.932 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0020.933 (0) No email will/can be sent - the user has not configured an email address.
+0020.933 (0) The backup apparently succeeded and is now complete

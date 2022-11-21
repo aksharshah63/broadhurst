@@ -1,0 +1,194 @@
+/**
+ * gfa_admin.css
+ *
+ * Copyright (c) www.itthinx.com
+ *
+ * This code is provided subject to the license granted.
+ * Unauthorized use and distribution is prohibited.
+ * See COPYRIGHT.txt and LICENSE.txt
+ *
+ * This code is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This header and all notices must be kept intact.
+ */
+.manage-files {
+	margin-right: 1em;
+}
+.files-overview .page-options {
+	float: left;
+	display: inline;
+	padding-bottom: 1em;
+}
+.files-overview .filters,
+.files-overview .filters .filter-field,
+.files-overview .filters input[type="submit"] {
+	margin: 4px;
+}
+.files-overview .page-options input[name="row_count"] {
+	vertical-align: middle;
+}
+.files-overview .tablenav.top {
+	display: inline;
+}
+.files-overview .tablenav .actions select {
+	float: none;
+}
+.files-overview .actions.remove {
+	padding-left: 1em;
+	vertical-align: middle;
+}
+.files-overview .actions.remove input {
+	vertical-align: middle;
+}
+.files-overview .actions.group {
+	border-left: 1px solid #ccc;
+	padding-left: 4px;
+	margin-left: 4px;
+}
+.manage-files .required {
+	background: url(../images/required.png) transparent no-repeat left center;
+	padding-left: 16px ! important;
+}
+label.file-id-filter,
+label.file-name-filter,
+label.file-description-filter,
+label.file-path-filter,
+label.file-max-count-filter,
+label.file-group-name-filter {
+	padding-right: 0.62em;
+}
+input.file-id-filter,
+input.file-name-filter,
+input.file-description-filter,
+input.file-path-filter,
+input.file-max-count-filter,
+input.file-group-name-filter {
+	margin-right: 1em;
+}
+input.file-id-filter,
+input.file-max-count-filter {
+	width: 4em;
+}
+.manage-files table.files thead th {
+	vertical-align: middle;
+	padding: 2px;
+}
+.manage-files table.files th * {
+	word-wrap: break-word;
+}
+.manage-files table.files th.file_id {
+	min-width: 4em;
+	width: 5%;
+	max-width: 8em;
+}
+.manage-files table.files th.name {
+	min-width: 8em;
+	width: 10%;
+}
+.manage-files table.files th.description {
+	min-width: 8em;
+	width: 10%;
+}
+.manage-files table.files th.path {
+	min-width: 10em;
+	width: 40%;
+}
+.manage-files table.files th.max_count {
+	min-width: 6em;
+	width: 5%;
+	max-width: 8em;
+}
+.manage-files table.files th.groups {
+	min-width: 8em;
+	width: 10%;
+}
+.manage-files table.files th.created,
+.manage-files table.files th.updated {
+	min-width: 8em;
+	width: 5%;
+	max-width: 11em;
+}
+.manage-files table.files th.edit {
+	min-width: 2em;
+	width: 5%;
+	max-width: 5em;
+}
+.manage-files table.files th.remove {
+	min-width: 2em;
+	width: 5%;
+	max-width: 5em;
+}
+.manage-files form#remove-file .button.button-primary {
+	margin-right: 1em;
+}
+.manage-files div.export-file-access {
+	display: flex;
+	flex-flow: row-reverse;
+	margin: 8px 0 0 0;
+}
+.manage input.amazon-s3-expires {
+	width: 5em;
+	text-align: right;
+}
+div.file.new label.description-field,
+div.file.edit label.description-field {
+	vertical-align: top;
+}
+div.file input.filefield,
+div.file input.namefield,
+div.file textarea.descriptionfield,
+div.file input.maxcountfield,
+div.file select.amazon-s3-region-field,
+div.file input.amazon-s3-bucket-field,
+div.file input.amazon-s3-key-field {
+	display: block;
+}
+div.file input.namefield,
+div.file textarea.descriptionfield,
+div.file select.amazon-s3-region-field,
+div.file input.amazon-s3-bucket-field,
+div.file input.amazon-s3-key-field {
+	width: 60%;
+}
+div.file input.maxcountfield {
+	width: 50px;
+	text-align: right;
+}
+div.file div.field {
+	margin-bottom: 1em;
+}
+
+div.gfa-help ul {
+	list-style: square;
+}
+div.gfa-help ul li {
+	margin-left: 1em;
+}
+div.gfa-footer {
+	padding-top: 1em;
+	font-size: 0.9em;
+	color: #999;
+}
+div.gfa-footer img {
+	vertical-align: middle;
+}
+.manage-files ul.info li {
+	list-style-image: url(../images/info.png);
+	list-style-position: inside;
+}
+
+input.filter-active {
+	background-color: #f0f0ff;
+}
+
+div.gfa-warning {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-left-color: #ffcc00;
+	border-left-width: 4px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	margin: 5px 15px 2px;
+	padding: 1px 12px;
+}

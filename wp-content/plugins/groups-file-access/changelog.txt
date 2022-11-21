@@ -1,0 +1,175 @@
+== Groups File Access by itthinx https://www.itthinx.com - Changelog
+
+= 2.4.0 =
+* WordPress 6.1 compatible.
+* Updated the AWS SDK for PHP to the latest version 3.240.5.
+* Resolves a database error that would have been caused with WordPress 6.1 when filtering files by group name.
+* Fixes slashes added when using string filters in the Files section.
+* Fixed a PHP Notice on an instance where a return value was used instead of a variable passed by reference.
+* Fixed the [groups_file_link] shortcode's group attribute to handle group names with characters that need to be escaped with slashes properly.
+* Revised [groups_file_link] shortcode attribute handling and delegated attribute escaping appropriately to the link renderer.
+
+= 2.3.0 =
+* WordPress 6.1 compatible.
+* Requires at least WordPress 5.6.
+* Uses the canonical uploads directory and fixes an issue with multisites where an outdated path structure was assumed.
+* Adds the groups_file_access_uploads_dir filter.
+* Updated the translation template.
+* Added the option to display service keys and files to Groups admins in user profiles.
+* Added the option to display service keys in user profiles.
+* Added the option to display files in user profiles.
+
+= 2.2.0 =
+* WordPress 6.0 compatible.
+* Fixes an issue with overeager input cleaning stripping away HTML tags in the notification email message.
+* Updated the plugin's settings form.
+* Added a Export File Access Table feature under Groups > File Import > Export Files that provides the file access stats per user and file (request takes file_id, user_id, limit and offset as parameters but no UI provided for those).
+
+= 2.1.0 =
+* WordPress 6.0 compatible.
+* Added support for serving files stored on Amazon S3.
+* Enhanced database schema to support file metadata.
+* Corrected function reference typo in admin error message.
+* Fixed HTML tags rendered in admin section.
+* Fixed database errors when filtering certain fields in the Files admin section.
+* Added the groups_file_access_amazon_s3_regions filter.
+* Added the groups_file_access_amazon_s3_expires filter.
+* Fixed code formatting, missing spaces.
+* Fixed code formatting, superfluous trailing spaces.
+* Replaced uses of the plugin's language domain constant with its string literal.
+* Updated the translation template.
+
+= 2.0.0 =
+* WordPress 5.9 compatible.
+* Requires at least WordPress 5.5.
+* Fully revised edition including enhancements.
+* Fixed output rendering in administrative sections which included undesired slashes in some cases for group names.
+* Fixed output rendering in exports and scans which included undesired slashes in some cases for group names.
+* Full code and code documentation review including validation fixes and improvements.
+* Revised the file server and made it more resilient to potential undesired output produced while trying to attend a file request.
+* Added the option to specify an alternative notification email instead of the site administrator's email for file access notifications.
+* Revised and improved the MIME type recognition.
+* Translation template updated.
+* Updated the extension's database schema adding creation and update timestamps.
+* Added support for automatic updates, exclusive to valid account memberships on itthinx.com via Itthinx Updates.
+* Revised several administrative user interfaces.
+* Revised and enhanced the Files overview.
+* Added columns to the Files overview showing when entries were created or updated, with added support to sort by those criteria.
+
+= 1.9.0 =
+* WordPress 5.8 compatible.
+* Fixed a PHP Notice related to illegal characters when trying to upload international filenames.
+* Added output escaping where missing.
+* Verified validation checks where appropriate.
+* Updated the translation template.
+* Fixed a string transformation issue during scan while removing punctuation characters.
+
+= 1.8.0 =
+* WordPress 5.7 compatible.
+
+= 1.7.0 =
+* WordPress 5.5 compatible.
+* Added the groups_file_access_server_response_title filter.
+* Added the groups_file_access_server_response_heading filter.
+* Added the groups_file_access_server_response_message filter.
+* Added the groups_file_access_server_response_document filter.
+
+= 1.6.4 =
+* Removed check for deprecated safe_mode.
+* Minor coding standard improvements.
+* Minor UI adjustments.
+
+= 1.6.3 =
+* Added the groups_file_access_can_access filter.
+* Fixed admin HTML issue with wrongly nested block-level elements (p and pre).
+* Updated image rendering based on http or https used.
+* Fixed the use of the deprecated function wp_cache_reset().
+* Fixed fatal error due to incorrect function call on blog deletion in multisite setup.
+* Added the [referrer] notification token for use in file served notifications.
+* Added the [server_ip] notification token for use in file served notifications.
+* Added the [request_uri] notification token for use in file served notifications.
+* Added the [request] notification token for use in file served notifications.
+* Revised the admin area and updated the info on available notification tokens.
+
+= 1.6.2 =
+* Fixed an issue using import function on Windows server.
+
+= 1.6.1 =
+* Fixed an issue with duplicate cron entries for groups_file_access_session_delete_transients.
+* Corrected the access permission used to show the Files menu item.
+* Changed the access permission used for the File Import menu item to require administrative rights for Groups.
+* Added missing ABSPATH checks on plugin files.
+
+= 1.6.0 =
+* Added the [groups_file_access_process] preprocessor pseudo-shortcode to allow [groups_file_url] and other shortcodes provided by Groups File Access to be used in other shortcodes' attributes.
+
+= 1.5.5 =
+* WordPress 4.4 compatible
+* fixed [groups_file_link] session_access attribute not handled correctly
+* fixed an issue related to PHP Strict standards where a non-variable was passed to the array_shift function
+
+= 1.5.4 =
+* fixed duplicate shortcode registration
+* WordPress 4.3 compatible
+
+= 1.5.3 =
+* fixed missing user identification passed to groups_file_served action when serving via service key
+* added support for tokens [file_id], [user_id], [ip] and [datetime] in file access notifications
+* improved the default notification subject and message to use new tokens for clearer information on file accesses
+* fixed a formatting issue in the admin settings
+
+= 1.5.2 =
+* adjusted the filetype recognition to be less strict in favor of allowing file types to be recognized
+
+= 1.5.1 =
+* fixed missing mb_strlen check
+
+= 1.5.0 =
+* fixed group name filter wasn't cleared
+* fixed prepare complaining when no filter params were set
+* added content disposition option in admin settings
+* added MIME type option in admin settings
+* added MIME type display in Files admin section
+* added support for HTTP range requests
+* added support for temporary access URLs using the session_access option
+
+= 1.4.1 =
+* added service action parameter
+
+= 1.4.0 =
+* added the option to identify by service key
+* added the [groups_file_access_service_key] shortcode
+
+= 1.3.1 =
+* added information about issues when trying to import files
+* removed the line length limit for file imports
+* fixed a bug when trying to import a file line with invalid group names
+
+= 1.3.0 =
+* added languages folder
+* added loading text domain
+* added shell scripts for .pot and .mo file generation
+* fixed using normal string functions when mb_ functions are not available
+* added the option to show file sizes with the [groups_file_info] shortcode using show="size" or show="sizeb"
+* added visual highlight to active filters on Files screen
+
+= 1.2.1 =
+* fixed imported files based on export are deleted
+
+= 1.2.0 =
+* added safe_mode check before use of set_time_limit()
+* removed DEFAULT values for TEXT columns, see https://bugs.mysql.com/bug.php?id=21532
+* added bulk import feature
+* added bulk scan feature
+* added bulk export feature
+* added group assignment on file add and file edit screens
+* reduced action footprint on files screen
+* fixed UTF-8 encoding issues in files screen and file add/edit screens
+* added update notifier
+* added orderby option to [groups_file_link] shortcode, allows to sort by file_id, name, description, path or max_count
+* added option to use * for all groups and allowing multiple groups separated by comma as group attribute of the [groups_file_link] shortcode
+* added the description_filter attribute to the [groups_file_link] shortcode which allows to indicate an alternative for the default wp_filter_kses used, if empty applies no filter
+* fixed unnecessary URL-encoding for filename in header when serving files
+
+= 1.0.13 =
+* added option to redirect to login page

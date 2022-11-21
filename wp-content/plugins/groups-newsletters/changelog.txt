@@ -1,0 +1,121 @@
+Changelog - Groups Newsletters - https://www.itthinx.com/shop/groups-newsletters/
+
+= 2.1.0 =
+* WordPress 5.8 compatible.
+* Requires at least WordPress 5.5.
+* WooCommerce 5.6 compatible.
+* Requires at least WooCommerce 5.0.
+* Fixed a PHP Warning Attempt to read property "ID" on bool when newsletter sent without user object.
+* Fixed a PHP Fatal error due to shortcodes class not loaded in admin.
+* Fixed slashes handling in group names shown on newsletter admin.
+* Added a message for the [unsubscribe_link] replacement when recipient address is not subscribed, as is the case in testing with unsubscribed email addresses.
+* Revised widget logic and fixed PHP Warnings Undefined array key "widget_id".
+* Removed cache content use for subscribe widget.
+* Fixed PHP Warnings Undefined array key "title" on widgets.
+* Fixed PHP Warning Undefined array key "number" on stories widget.
+* Fixed PHP Warning Undefined array key "newsletter_id" on stories widget.
+
+= 2.0.0 =
+* WordPress 5.7 compatible.
+* WooCommerce 5.2 compatible.
+* Added escaping to output where missing.
+* Updated the translation template.
+* Fixed minor code formatting issues.
+* Updated to avoid use of deprecated mailer.
+* Added the possibility to debug SMTP defining the GROUPS_NEWSLETTERS_SMTP_DEBUG constant in wp-config.php, set to true or a value between 1 and 4 to enable.
+* Fixed UI issues on the settings admin screen.
+* Integrated support for sign-up to newsletters on WooCommerce checkout.
+
+= 1.5.1 =
+* Fixed usage of an undefined variable.
+
+= 1.5.0 =
+* WordPress 5.2 compatible.
+* Minor security improvement with added ABSPATH check in plugin main file.
+* Improved some code formatting.
+* Fixed a fatal error in the taxonomy template when Groups is not installed or activated.
+* Fixed links to newsletters shown for campaigns were overly escaped.
+* Fixed HTML elements in descriptions mistakenly escaped when editing a campaign.
+* Added background color on test email container in settings (avoid visual difficulty/transparency with potential admin notices).
+* Added the [groups_newsletters_user] shortcode that allows to render user-specific properties such as the first_name, last_name, ...
+
+= 1.4.0 =
+* Added support for the WordPress Block editor to edit stories.
+* Added an option to choose whether to use the Block editor to edit stories.
+* Updated language translations file
+* Fixed warnings for deprecated class constructors
+* Tested with WordPress 5.1.1.
+* Security improvement, added missing ABSPATH checks.
+* Code validation and formatting improved.
+* Replaced the uses of the GROUPS_NEWSLETTERS_PLUGIN_DOMAIN constant with the equivalent string literal.
+* Fixed formatting issues.
+* Fixed story post type constructor using undefined variable.
+* Pre-registering the newsletter taxonomy before flushing rewrite rules on activation so that visiting the Settings > Permalinks shouldn't be necessary to be able to visit newsletter archives upon first creation.
+
+= 1.3.3 =
+* Added the groups_newsletters_newsletter_email_header filter.
+* Added the groups_newsletters_newsletter_email_footer filter.
+* Added the groups_newsletters_newsletter_email_content filter.
+* Fixed restricted newsletter is not sent to recipients.
+* Fixed two PHP notices on the settings admin screen.
+* Added a new required attribute data-wp-taxonomy indicating the taxonomy to allow to choose the newsletters via AJAX tag search in campaigns.
+* Tested with WordPress 4.7.
+
+= 1.3.2 =
+* Fixed stories order on email, ordering now by menu_order ASC date DESC.
+* Improved the 'groups_newsletters_user_subscribe' shortcode. Added the 'subscriber_message_style' attribute.
+* Improved the definition for resource paths using plugins_url() and plugin_dir_path().
+* Fixed a fatal error when the mb_convert_encoding() function is not available.
+* Added the groups_newsletters_newsletter_stories_orderby filter.
+
+= 1.3.1 =
+* Switching users so that content is rendered as seen by the target recipient.
+* Adjusted the email template so that nothing is rendered when a story is not accessible by the recipient.
+
+= 1.3.0 =
+* Added the option to include or exclude subscribed users in export.
+* Added the option to include or exclude subscribers in export.
+* Added the option to subscribe existing users on import.
+* Added bulk actions to subscribe/unsubscribe users on Users screen.
+* Fixed missing separation between newsletter titles in Stories' Newsletters column.
+
+= 1.2.1 =
+* Fixed groups not shown for users on Users screen
+
+= 1.2.0 =
+* WordPress 4.3.x compatible
+* Fixed widget constructors compatibility
+* Fixed index length on subscribers table.
+* Added subscribe and unsubscribe bulk actions to Subscribers section.
+* Fixed imported subscribers are not activated.
+* Added support for subscription active/inactive on subscriber import.
+* Fixed Settings separator appearance (restricted to inside).
+
+= 1.1.6 =
+* Fixed: Skip assuring capabilities are assigned to administrators if the role does not exist.
+* Added translation template
+
+= 1.1.5 =
+* Changed: Lowered the length of a unique index to avoid the subscriber table not being created due to bug http://bugs.mysql.com/bug.php?id=4541 which limits the key length to 767 bytes or 1000 bytes depending on the database configuration.
+
+= 1.1.4 =
+* Fixed: Newsletter being sent to first recipient only when cycle limit is higher than 1.
+
+= 1.1.3 =
+* Fixed: Conditionally loading recaptchalib.php to avoid fatal errors when the library has already been loaded through another plugin, for example when WP-reCAPTCHA is also used.
+
+= 1.1.2 =
+* Fixed slashes added to mail subject
+* Fixed HTML in settings
+
+= 1.1.1 =
+* Fixed fatal errors when using some widgets
+* Fixed unified line endings
+* Fixed missing text domain on some labels
+
+= 1.1.0 =
+* Added import subscribers
+* Added export subscribers
+
+= 1.0.0 =
+* Initial release

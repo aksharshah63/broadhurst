@@ -1,0 +1,21 @@
+{
+	"name": "groups-blocks",
+	"version": "2.14.0",
+	"description": "Groups Blocks",
+	"main": "build/index.js",
+	"author": "itthinx",
+	"license": "GPL-3.0",
+	"devDependencies": {
+		"@wordpress/scripts": "^12.6.1"
+	},
+	"scripts": {
+		"start": "wp-scripts start",
+		"build": "wp-scripts build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"@wordpress/data": "^6.0.0",
+		"classnames": "^2.3.1",
+		"react-select": "^4.3.1"
+	}
+}

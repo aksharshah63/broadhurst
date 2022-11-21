@@ -1,0 +1,1669 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: PACKAGE VERSION\n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2021-08-21 20:12+0200\n"
+        "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "Language: \n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=CHARSET\n"
+        "Content-Transfer-Encoding: 8bit\n"
+        "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:113
+#, php-format
+msgid   "%d / %d"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:329 lib/admin/settings.php:273
+#, php-format
+msgid   "%s is not a valid email address."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:103
+msgid   "(queued)"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:116
+msgid   "(waiting)"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:466
+msgctxt "tag delimiter"
+msgid   ","
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:588
+msgid   "-"
+msgstr  ""
+
+#: lib/admin/settings.php:140
+#, php-format
+msgid   "1 capability has been added to the Story Editors group."
+msgid_plural    "%d capabilities  have been added to the Story Editors group."
+msgstr[0]       ""
+msgstr[1]       ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:357
+#, php-format
+msgid   "1 email of %2$d in this campaign has been sent."
+msgid_plural    "%1$d emails of %2$d in this campaign have been sent."
+msgstr[0]       ""
+msgstr[1]       ""
+
+#: lib/views/class-groups-newsletters-import.php:159
+#, php-format
+msgid   "1 existing subscriber was skipped"
+msgid_plural    "%d existing subscribers were skipped"
+msgstr[0]       ""
+msgstr[1]       ""
+
+#: lib/views/class-groups-newsletters-import.php:156
+#, php-format
+msgid   "1 existing user was skipped"
+msgid_plural    "%d existing users were skipped"
+msgstr[0]       ""
+msgstr[1]       ""
+
+#: lib/views/class-groups-newsletters-import.php:150
+#, php-format
+msgid   "1 existing user was subscribed"
+msgid_plural    "%d existing users were subscribed"
+msgstr[0]       ""
+msgstr[1]       ""
+
+#: lib/views/class-groups-newsletters-import.php:153
+#, php-format
+msgid   "1 invalid line was skipped"
+msgid_plural    "%d invalid lines were skipped"
+msgstr[0]       ""
+msgstr[1]       ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:365
+#, php-format
+msgid   "1 is in the queue."
+msgid_plural    "%d are in the queue."
+msgstr[0]       ""
+msgstr[1]       ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:376
+#, php-format
+msgid   "1 reply"
+msgid_plural    "%d replies"
+msgstr[0]       ""
+msgstr[1]       ""
+
+#: lib/views/class-groups-newsletters-import.php:148
+#, php-format
+msgid   "1 subscriber has been imported."
+msgid_plural    "%d subscribers have been imported"
+msgstr[0]       ""
+msgstr[1]       ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:786
+#, php-format
+msgid   "1 voice"
+msgid_plural    "%d voices"
+msgstr[0]       ""
+msgstr[1]       ""
+
+#: lib/views/class-groups-newsletters-import.php:162
+#, php-format
+msgid   "1 was skipped because creating the record failed"
+msgid_plural    "%d were skipped because creating the records failed"
+msgstr[0]       ""
+msgstr[1]       ""
+
+#: lib/admin/settings.php:406
+msgid   "<em>From</em> Email Address"
+msgstr  ""
+
+#: lib/admin/settings.php:419
+msgid   "<em>From</em> Name"
+msgstr  ""
+
+#: lib/admin/settings.php:704
+msgid   "A <em>Story Editors</em> group with full capabilities to manage "
+        "stories can be created here:"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:417
+msgid   "A campaign must have at least one newsletter assigned."
+msgstr  ""
+
+#: lib/admin/settings.php:742
+msgid   "A group named <em>Story Editors</em> already exists. Press the "
+        "button to assign all story capabilities to this group now."
+msgstr  ""
+
+#: lib/admin/settings.php:176
+#, php-format
+msgid   "A newsletters page could not be created. Error: %s"
+msgstr  ""
+
+#: woocommerce/admin/class-groups-newsletters-woocommerce-admin.php:62
+#: lib/admin/class-groups-newsletters-settings.php:81 lib/admin/settings.php:27
+#: lib/admin/class-groups-newsletters-subscribers-list-table.php:100
+msgid   "Access denied."
+msgstr  ""
+
+#: lib/admin/class-groups-newsletters-subscribers-list-table.php:171
+msgid   "Active"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:478
+msgid   "Add"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:194
+msgid   "Add New Campaign"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:114
+msgid   "Add New Newsletter"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-story-post-type.php:132
+msgid   "Add New Story"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:109
+msgid   "All Newsletters"
+msgstr  ""
+
+#: lib/admin/settings.php:371
+msgid   "Allow to opt in on receiving newsletters on the registration form."
+msgstr  ""
+
+#: lib/admin/settings.php:360
+msgid   "Allow to opt in or out on receiving newsletters on the user profile "
+        "page."
+msgstr  ""
+
+#: lib/admin/settings.php:992
+msgid   "An import can not be undone, when in doubt, run the import on a test "
+        "installation first."
+msgstr  ""
+
+#: lib/admin/settings.php:42
+msgid   "Anyone can comment on a story"
+msgstr  ""
+
+#: lib/admin/settings.php:35
+msgid   "Apply the Comment Approval setting"
+msgstr  ""
+
+#: lib/admin/settings.php:38 lib/admin/settings.php:44
+msgid   "Apply the Discussion Settings"
+msgstr  ""
+
+#: lib/admin/settings.php:609
+msgid   "Approval Logic"
+msgstr  ""
+
+#: lib/admin/settings.php:32
+msgid   "Approve comments on stories"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:110
+msgid   "Are you human?"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-widget.php:68
+#: lib/views/class-groups-newsletters-stories-widget.php:74
+#: lib/views/class-groups-newsletters-tags-widget.php:85
+#: lib/views/class-groups-newsletters-search-widget.php:69
+msgid   "Ascending"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:117
+msgid   "Assign one or more newsletters separated by commas. You can create a "
+        "new newsletter on the fly, or start typing and select an existing "
+        "one."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:445
+msgid   "Assign one or more newsletters that will be sent with this campaign."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:68
+msgid   "Author"
+msgstr  ""
+
+#: lib/admin/settings.php:502
+msgid   "Batch Sending"
+msgstr  ""
+
+#: lib/admin/settings.php:676
+msgid   "By enabling this option you agree to be solely responsible for any "
+        "loss of data or any other consequences thereof."
+msgstr  ""
+
+#: lib/admin/settings.php:660
+msgid   "CAUTION: If this option is active while the plugin is deactivated, "
+        "ALL of this plugin's settings and data will be DELETED."
+msgstr  ""
+
+#: lib/admin/settings.php:920
+msgid   "CSV"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:191
+msgid   "Campaign"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:170
+msgid   "Campaign draft updated."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:162
+#, php-format
+msgid   "Campaign restored to revision from %s"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:164
+msgid   "Campaign saved."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:167
+#, php-format
+msgid   "Campaign scheduled for: <strong>%1$s</strong>."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:165
+msgid   "Campaign submitted."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:158
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:161
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:163
+msgid   "Campaign updated."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:516
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:190
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:192
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:204
+msgid   "Campaigns"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:597
+msgid   "Cancel"
+msgstr  ""
+
+#: woocommerce/admin/class-groups-newsletters-woocommerce-admin.php:107
+msgid   "Checked by default"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:118
+msgid   "Choose from most used newsletters"
+msgstr  ""
+
+#: lib/admin/settings.php:892
+msgid   "Click to create a page where visitors can subscribe and see the "
+        "status of their newsletter subscription."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:292
+msgid   "Click to preview the newsletter:"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-tags-widget.php:96
+msgid   "Comma"
+msgstr  ""
+
+#: lib/admin/settings.php:917
+msgid   "Comma-separated values"
+msgstr  ""
+
+#: lib/admin/settings.php:588
+msgid   "Comment Approval"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:71
+msgid   "Comment Count"
+msgstr  ""
+
+#: lib/admin/settings.php:630
+msgid   "Comment Registration"
+msgstr  ""
+
+#: lib/admin/settings.php:622
+msgid   "Comment approval for stories is based on this setting."
+msgstr  ""
+
+#: lib/admin/settings.php:578
+msgid   "Comments on stories are included in results for comments in general "
+        "by default. Activate this option to exclude them."
+msgstr  ""
+
+#: lib/admin/settings.php:31
+msgid   "Comments on stories must await moderation"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:395
+msgid   "Continue"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:402
+msgid   "Continue sending out emails to the newsletter recipients at the "
+        "scheduled date and time."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:399
+msgid   "Continue sending out emails to the newsletter recipients immediately."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:405
+msgid   "Continue sending out emails to the newsletter recipients once the "
+        "campaign is published."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:395
+msgid   "Continue the campaign"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-tags-widget.php:82
+msgid   "Count"
+msgstr  ""
+
+#: lib/admin/settings.php:773 lib/admin/settings.php:807
+#: lib/admin/settings.php:890
+msgid   "Create"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:160
+msgid   "Custom field deleted."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:159
+msgid   "Custom field updated."
+msgstr  ""
+
+#: woocommerce/admin/class-groups-newsletters-woocommerce-admin.php:96
+msgid   "Customers can subscribe to newsletters at checkout"
+msgstr  ""
+
+#: lib/admin/settings.php:508
+msgid   "Cycle: "
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-tags-widget.php:97
+msgid   "Dash"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:69
+msgid   "Date"
+msgstr  ""
+
+#: lib/admin/class-groups-newsletters-subscribers-list-table.php:231
+msgid   "Delete"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:644
+msgid   "Delete Permanently"
+msgstr  ""
+
+#: lib/admin/settings.php:656
+msgid   "Delete data on plugin deactivation"
+msgstr  ""
+
+#: lib/admin/settings.php:651
+msgid   "Deleting all settings and data"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-widget.php:69
+#: lib/views/class-groups-newsletters-stories-widget.php:75
+#: lib/views/class-groups-newsletters-tags-widget.php:86
+#: lib/views/class-groups-newsletters-search-widget.php:70
+msgid   "Descending"
+msgstr  ""
+
+#: lib/admin/settings.php:347
+msgid   "Disable this option if you do not want to use the block editor to "
+        "edit stories."
+msgstr  ""
+
+#: lib/admin/settings.php:37
+msgid   "Discussion Settings and Comment Approval must approve"
+msgstr  ""
+
+#: lib/admin/settings.php:36
+msgid   "Discussion Settings or Comment Approval can approve"
+msgstr  ""
+
+#: lib/admin/settings.php:479
+msgid   "Do SMTP authentication with the <em>Username</em> and <em>Password</"
+        "em> provided:"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:572
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:591
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:593
+msgid   "Draft"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-story-post-type.php:133
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:195
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:578
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:626
+msgid   "Edit"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:196
+msgid   "Edit Campaign"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:112
+msgid   "Edit Newsletter"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-story-post-type.php:134
+msgid   "Edit Story"
+msgstr  ""
+
+#: lib/admin/settings.php:527
+#: lib/admin/class-groups-newsletters-subscribers-list-table.php:195
+#: lib/views/class-groups-newsletters-shortcodes.php:100
+msgid   "Email"
+msgid_plural    "Emails"
+msgstr[0]       ""
+msgstr[1]       ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:343 lib/admin/settings.php:312
+msgid   "Email address:"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:280
+msgid   "Empty, newsletter ID or {current}"
+msgstr  ""
+
+#: lib/admin/settings.php:396
+msgid   "Enable SMTP"
+msgstr  ""
+
+#: lib/admin/settings.php:343
+msgid   "Enable the block editor to edit stories"
+msgstr  ""
+
+#: woocommerce/admin/class-groups-newsletters-woocommerce-admin.php:100
+msgid   "Enable this option to allow customers to subscribe to newsletters at "
+        "checkout."
+msgstr  ""
+
+#: lib/admin/settings.php:460
+msgid   "Encryption"
+msgstr  ""
+
+#: lib/admin/settings.php:573
+msgid   "Exclude comments on stories"
+msgstr  ""
+
+#: lib/admin/settings.php:559
+msgid   "Exclude stories from normal search results"
+msgstr  ""
+
+#: lib/admin/settings.php:965
+msgid   "Export"
+msgstr  ""
+
+#: lib/admin/settings.php:909
+msgid   "Export Subscribers"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:324
+#, php-format
+msgid   "Failed to send the newsletter to %s."
+msgstr  ""
+
+#: lib/admin/settings.php:264
+#, php-format
+msgid   "Failed to send the test email to %s."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-tags-widget.php:90
+msgid   "Flat"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-tags-widget.php:286
+msgid   "Format"
+msgstr  ""
+
+#: lib/admin/settings.php:915
+msgid   "Format:"
+msgstr  ""
+
+#: lib/admin/settings.php:337
+msgid   "General"
+msgstr  ""
+
+#: woocommerce/core/class-groups-newsletters-woocommerce-checkout.php:177
+#: lib/views/class-groups-newsletters-shortcodes.php:265
+msgid   "Greetings,"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:234
+#: lib/ext/class-groups-newsletters-taxonomy.php:520
+msgid   "Groups"
+msgstr  ""
+
+#: lib/admin/class-groups-newsletters-settings.php:66
+msgid   "Groups Newsletters Settings"
+msgstr  ""
+
+#: lib/admin/class-groups-newsletters-subscribers-list-table.php:51
+msgid   "Groups Newsletters Subscribers"
+msgstr  ""
+
+#: lib/core/class-groups-newsletters-mailer.php:376
+msgid   "Groups Newsletters Test Email"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:410
+msgid   "Hold"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:410
+msgid   "Hold the campaign"
+msgstr  ""
+
+#: lib/admin/class-groups-newsletters-subscribers-list-table.php:194
+#: lib/views/class-groups-newsletters-widget.php:65
+#: lib/views/class-groups-newsletters-search-widget.php:66
+msgid   "ID"
+msgstr  ""
+
+#: lib/admin/settings.php:387
+msgid   "If SMTP is enabled, these settings will only be used to send "
+        "newsletters."
+msgstr  ""
+
+#: woocommerce/core/class-groups-newsletters-woocommerce-checkout.php:165
+#: lib/views/class-groups-newsletters-shortcodes.php:253
+msgid   "If that is correct, please confirm your newsletter subscription by "
+        "clicking the activation link below."
+msgstr  ""
+
+#: lib/admin/settings.php:670
+msgid   "If you are going to use this option, make a backup <strong>NOW</"
+        "strong>."
+msgstr  ""
+
+#: lib/admin/settings.php:1035
+msgid   "Import"
+msgstr  ""
+
+#: lib/admin/settings.php:981
+msgid   "Import Subscribers"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-import.php:165
+msgid   "Import failed (error opening temporary file)."
+msgstr  ""
+
+#: lib/admin/settings.php:984
+msgid   "Import subscriber data from a text file."
+msgstr  ""
+
+#: woocommerce/core/class-groups-newsletters-woocommerce-checkout.php:174
+#: lib/views/class-groups-newsletters-shortcodes.php:262
+msgid   "In case you have not requested to be subscribed to our newsletters, "
+        "please disregard this message and do not click or visit the "
+        "activation link."
+msgstr  ""
+
+#: lib/admin/class-groups-newsletters-subscribers-list-table.php:173
+msgid   "Inactive"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-subscribe-widget.php:177
+msgid   "Include a reCAPTCHA to check for humans."
+msgstr  ""
+
+#: lib/admin/settings.php:937
+msgid   "Include activated subscribers"
+msgstr  ""
+
+#: lib/admin/settings.php:960
+msgid   "Include subscribed user accounts"
+msgstr  ""
+
+#: lib/admin/settings.php:952
+msgid   "Include subscribers without a user account"
+msgstr  ""
+
+#: lib/admin/settings.php:944
+msgid   "Include unconfirmed subscribers"
+msgstr  ""
+
+#: lib/admin/settings.php:547
+msgid   "It is important to note that the number of emails that are sent "
+        "should not exceed your server capacity or the limits imposed by your "
+        "email service provider."
+msgstr  ""
+
+#: lib/admin/settings.php:877
+msgid   "It seems that you do not have any page with the "
+        "<code>[groups_newsletters_subscribe]</code> and "
+        "<code>[groups_newsletters_activation]</code> shortcodes. It is "
+        "advisable to have such a page, so that users can subscribe and get "
+        "feedback after activating or cancelling their newsletter "
+        "subscription."
+msgstr  ""
+
+#: woocommerce/admin/class-groups-newsletters-woocommerce-admin.php:116
+msgid   "Label"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-tags-widget.php:268
+msgid   "Largest"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:277
+msgid   "Leave empty to show stories for all newsletters. To show stories for "
+        "a specific newsletter indicate the newsletter ID. To show stories "
+        "for the current newsletter, indicate: {current} (when not on a "
+        "newsletter page, stories for all newsletters are displayed)."
+msgstr  ""
+
+#: lib/admin/settings.php:523
+msgid   "Limit per Cycle: "
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-tags-widget.php:91
+msgid   "List"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:168
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:603
+#: lib/admin/class-groups-newsletters-subscribers-list-table.php:179
+msgid   "M j, Y @ G:i"
+msgstr  ""
+
+#: lib/admin/settings.php:516
+msgid   "Minute"
+msgid_plural    "Minutes"
+msgstr[0]       ""
+msgstr[1]       ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:646
+msgid   "Move to Trash"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-widget.php:64
+#: lib/views/class-groups-newsletters-tags-widget.php:81
+#: lib/views/class-groups-newsletters-search-widget.php:65
+msgid   "Name"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:193
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:197
+msgid   "New Campaign"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:115
+msgid   "New Newsletter Name"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-story-post-type.php:131
+#: lib/ext/class-groups-newsletters-story-post-type.php:135
+msgid   "New Story"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-tags-widget.php:94
+msgid   "New line"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:107
+msgctxt "taxonomy singular name"
+msgid   "Newsletter"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:277
+msgid   "Newsletter ID"
+msgstr  ""
+
+#: lib/admin/settings.php:195
+msgid   "Newsletter Subscription"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:146
+msgctxt "taxonomy singular name"
+msgid   "Newsletter Tag"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:145
+msgctxt "taxonomy general name"
+msgid   "Newsletter Tags"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:207
+msgid   "Newsletter campaign."
+msgstr  ""
+
+#: lib/admin/settings.php:535
+msgid   "Newsletter emails are sent out in batches every cycle."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-story-post-type.php:145
+msgid   "Newsletter story."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:231
+#: lib/admin/class-groups-newsletters-admin-users.php:64
+msgid   "Newsletter subscribers"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:283
+#, php-format
+msgid   "Newsletter: %s"
+msgstr  ""
+
+#: woocommerce/admin/class-groups-newsletters-woocommerce-admin.php:46
+#: woocommerce/admin/class-groups-newsletters-woocommerce-admin.php:47
+#: woocommerce/admin/class-groups-newsletters-woocommerce-admin.php:87
+#: lib/ext/class-groups-newsletters-taxonomy.php:116
+#: lib/ext/class-groups-newsletters-taxonomy.php:605
+#: lib/ext/class-groups-newsletters-story-post-type.php:142
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:72
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:294
+#: lib/admin/settings.php:170
+#: lib/admin/class-groups-newsletters-admin-user-profile.php:48
+#: lib/admin/class-groups-newsletters-admin-user-profile.php:70
+msgid   "Newsletters"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:106
+msgctxt "taxonomy general name"
+msgid   "Newsletters"
+msgstr  ""
+
+#: lib/admin/settings.php:788
+msgid   "Newsletters Page"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:449
+#, php-format
+msgid   "Newsletters can only be assigned to a %1$spending%2$s campaign."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:198
+msgid   "No Campaigns found"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:199
+msgid   "No Campaigns found in trash"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-story-post-type.php:136
+msgid   "No Stories found"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-story-post-type.php:137
+msgid   "No Stories found in trash"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:119
+msgid   "No newsletters found."
+msgstr  ""
+
+#: lib/admin/settings.php:463
+msgid   "None"
+msgstr  ""
+
+#: lib/core/class-groups-newsletters-newsletter.php:108
+msgid   "Not available for this recipient."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:239
+msgid   "Number of stories"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:596
+msgid   "OK"
+msgstr  ""
+
+#: lib/admin/settings.php:382
+msgid   "On the registration form, the opt-in for receiving newsletters is "
+        "checked by default."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:453
+#, php-format
+msgid   "Once the campaign is %1$srunning%2$s or %3$son hold%4$s, you cannot "
+        "assign additional newsletters."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:420
+msgid   "Once you have assigned a newsletter to the campaign, it can be run "
+        "to send out emails."
+msgstr  ""
+
+#: lib/admin/settings.php:43
+msgid   "Only registered users can comment on a story"
+msgstr  ""
+
+#: lib/admin/settings.php:378
+msgid   "Opt in is checked by default"
+msgstr  ""
+
+#: lib/admin/settings.php:350
+msgid   "Opt-in Settings"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-story-post-type.php:66
+msgid   "Order"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-tags-widget.php:315
+msgid   "Order by &hellip;"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-widget.php:212
+#: lib/views/class-groups-newsletters-stories-widget.php:246
+msgid   "Order by ..."
+msgstr  ""
+
+#: lib/admin/settings.php:389
+msgid   "Otherwise, the email settings for the site will be used."
+msgstr  ""
+
+#: lib/admin/settings.php:842
+msgid   "Page"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:200
+msgid   "Parent Campaign"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:110
+msgid   "Parent Newsletter"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:111
+msgid   "Parent Newsletter:"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-story-post-type.php:138
+msgid   "Parent Story"
+msgstr  ""
+
+#: lib/admin/settings.php:496
+msgid   "Password"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:568
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:589
+msgid   "Pending Review"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:393
+#, php-format
+msgid   "Please %slog in%s to subscribe."
+msgstr  ""
+
+#: woocommerce/core/class-groups-newsletters-woocommerce-checkout.php:159
+#: lib/views/class-groups-newsletters-shortcodes.php:247
+msgid   "Please confirm your subscription"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:177
+msgid   "Please log in to subscribe."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:120
+#: lib/views/class-groups-newsletters-shortcodes.php:121
+msgid   "Please solve the captcha to proof that you are human."
+msgstr  ""
+
+#: templates/single-story.php:32
+#, php-format
+msgid   "Posted in %s"
+msgstr  ""
+
+#: lib/admin/settings.php:798
+msgid   "Press the button to create a <em>Newsletters</em> page now."
+msgstr  ""
+
+#: lib/admin/settings.php:735
+msgid   "Press the button to create the <em>Story Editors</em> group now."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:290
+#: lib/ext/class-groups-newsletters-taxonomy.php:294
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:542
+msgid   "Preview"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:538
+msgid   "Preview Changes"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:559
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:585
+msgid   "Privately Published"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:661
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:662
+msgid   "Publish"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:610
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:618
+msgid   "Publish immediately"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:614
+#, php-format
+msgid   "Publish on: %1$s"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:562
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:583
+msgid   "Published"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:608
+#, php-format
+msgid   "Published on: %1$s"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-tags-widget.php:87
+msgid   "Random"
+msgstr  ""
+
+#: lib/core/class-groups-newsletters-story.php:81
+msgid   "Read more ..."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:217
+msgid   "Recipients"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:380
+msgid   "Run"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:380
+msgid   "Run the campaign"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:384
+msgid   "Running the campaign now will start sending out emails to the "
+        "newsletter recipients immediately."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:390
+msgid   "Running the campaign now will start sending out emails to the "
+        "newsletter recipients once the campaign is published."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:387
+msgid   "Running the campaign will start sending out emails to the newsletter "
+        "recipients at the scheduled date and time."
+msgstr  ""
+
+#: lib/admin/settings.php:474
+msgid   "SMTP Authentication"
+msgstr  ""
+
+#: lib/admin/settings.php:385
+msgid   "SMTP Email Settings"
+msgstr  ""
+
+#: lib/admin/settings.php:444
+msgid   "SMTP Host"
+msgstr  ""
+
+#: lib/admin/settings.php:452
+msgid   "SMTP Port"
+msgstr  ""
+
+#: lib/admin/settings.php:464
+msgid   "SSL"
+msgstr  ""
+
+#: woocommerce/admin/class-groups-newsletters-woocommerce-admin.php:127
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:284
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:521
+#: lib/admin/settings.php:334 lib/admin/settings.php:685
+#: lib/admin/settings.php:865
+msgid   "Save"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:527
+msgid   "Save Draft"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:529
+msgid   "Save as Pending"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:658
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:659
+msgid   "Schedule"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:612
+#, php-format
+msgid   "Schedule for: %1$s"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:565
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:587
+msgid   "Scheduled"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:606
+#, php-format
+msgid   "Scheduled for: %1$s"
+msgstr  ""
+
+#: lib/admin/settings.php:553
+#: lib/views/class-groups-newsletters-shortcodes.php:633
+msgid   "Search"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:201
+msgid   "Search Campaigns"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:108
+msgid   "Search Newsletters"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-story-post-type.php:139
+msgid   "Search Stories"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:631
+msgid   "Search for &hellip;"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:630
+msgid   "Search for:"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:221
+msgid   "Select if normal subscribers should receive the newsletter."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:236
+msgid   "Select the groups whose members should receive the newsletter."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:218
+msgid   "Select who should receive the newsletter. At this stage, no emails "
+        "will be sent and you can also change your selection later."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:348 lib/admin/settings.php:317
+msgid   "Send"
+msgstr  ""
+
+#: lib/admin/settings.php:400
+msgid   "Send newsletters using these settings"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:336 lib/admin/settings.php:305
+msgid   "Send test email"
+msgstr  ""
+
+#: lib/admin/settings.php:923
+msgid   "Separate values by tabs"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-tags-widget.php:300
+msgid   "Separator"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-subscribe-widget.php:221
+msgid   "Set your reCAPTCHA options here."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-subscribe-widget.php:207
+msgid   "Set your reCAPTCHA private key here."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-subscribe-widget.php:193
+msgid   "Set your reCAPTCHA public key here."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-subscribe-widget.php:235
+msgid   "Set your reCAPTCHA widget HTML here, use groups_newsletters_neutral "
+        "or leave empty for reCAPTCHA themes."
+msgstr  ""
+
+#: lib/admin/class-groups-newsletters-settings.php:67
+#: lib/admin/class-groups-newsletters-settings.php:85
+#: lib/admin/class-groups-newsletters-settings.php:99
+msgid   "Settings"
+msgstr  ""
+
+#: lib/admin/settings.php:793
+msgid   "Shortcodes are used to render these and you can customize the page "
+        "as desired."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:291
+msgid   "Show author"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:298
+msgid   "Show date"
+msgstr  ""
+
+#: lib/admin/settings.php:356
+msgid   "Show in user profile"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:305
+msgid   "Show number of replies"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-widget.php:237
+msgid   "Show number of stories"
+msgstr  ""
+
+#: lib/admin/settings.php:367
+msgid   "Show on registration form"
+msgstr  ""
+
+#: lib/admin/class-groups-newsletters-subscribers-list-table.php:197
+msgid   "Since"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-tags-widget.php:259
+msgid   "Smallest"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:228
+msgid   "Sorry but we are having some trouble subscribing you right now. "
+        "Please try again in a few minutes."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-widget.php:224
+#: lib/views/class-groups-newsletters-stories-widget.php:258
+#: lib/views/class-groups-newsletters-tags-widget.php:330
+msgid   "Sort order"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-widget.php:224
+#: lib/views/class-groups-newsletters-stories-widget.php:258
+msgid   "Sort order."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-widget.php:212
+#: lib/views/class-groups-newsletters-stories-widget.php:246
+msgid   "Sorting criteria."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-tags-widget.php:95
+msgid   "Space"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:71
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:304
+#: lib/admin/class-groups-newsletters-subscribers-list-table.php:196
+msgid   "Status"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:554
+msgid   "Status:"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:515
+#: lib/ext/class-groups-newsletters-story-post-type.php:128
+#: lib/ext/class-groups-newsletters-story-post-type.php:130
+msgid   "Stories"
+msgstr  ""
+
+#: lib/admin/settings.php:564
+msgid   "Stories are included in search results by default. Activate this "
+        "option to exclude them."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-story-post-type.php:102
+msgid   "Stories can be forced to appear before others when given an order. "
+        "Indicate a value greater than 0 in the <strong>Order</strong> field "
+        "(under <em>Attributes</em>). Stories of higher order appear first in "
+        "newsletters."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-story-post-type.php:129
+msgid   "Story"
+msgstr  ""
+
+#: lib/admin/settings.php:584
+msgid   "Story Comments"
+msgstr  ""
+
+#: lib/admin/settings.php:700
+msgid   "Story Editors"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:665
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:666
+msgid   "Submit for Review"
+msgstr  ""
+
+#: lib/admin/class-groups-newsletters-subscribers-list-table.php:232
+#: lib/admin/class-groups-newsletters-admin-users.php:96
+#: lib/admin/class-groups-newsletters-admin-users.php:109
+#: lib/admin/class-groups-newsletters-admin-users.php:110
+#: lib/views/class-groups-newsletters-shortcodes.php:361
+#: lib/views/class-groups-newsletters-shortcodes.php:468
+msgid   "Subscribe"
+msgstr  ""
+
+#: lib/admin/settings.php:1000
+msgid   "Subscribe existing user accounts"
+msgstr  ""
+
+#: woocommerce/core/class-groups-newsletters-woocommerce-checkout.php:62
+#: woocommerce/admin/class-groups-newsletters-woocommerce-admin.php:83
+#: woocommerce/admin/class-groups-newsletters-woocommerce-admin.php:122
+#: lib/admin/class-groups-newsletters-admin-user-profile.php:137
+#: lib/views/class-groups-newsletters-registration.php:124
+#: lib/views/class-groups-newsletters-shortcodes.php:97
+#: lib/views/class-groups-newsletters-shortcodes.php:380
+msgid   "Subscribe to our newsletters"
+msgstr  ""
+
+#: lib/admin/class-groups-newsletters-admin-users.php:64
+msgid   "Subscriber"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:220
+#: lib/ext/class-groups-newsletters-taxonomy.php:518
+#: lib/admin/class-groups-newsletters-subscribers-list-table.php:52
+#: lib/admin/class-groups-newsletters-subscribers-list-table.php:104
+msgid   "Subscribers"
+msgstr  ""
+
+#: lib/admin/class-groups-newsletters-subscribers-list-table.php:69
+msgctxt "subscribers per page (screen options)"
+msgid   "Subscribers"
+msgstr  ""
+
+#: lib/admin/settings.php:835
+msgid   "Subscription Activation Page"
+msgstr  ""
+
+#: lib/admin/settings.php:465
+msgid   "TLS"
+msgstr  ""
+
+#: lib/admin/settings.php:926
+msgid   "Tabs"
+msgstr  ""
+
+#: templates/single-story.php:39
+#, php-format
+msgid   "Tags %s"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:548
+msgid   "Thank you, your newsletter subscription has been activated."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:549
+msgid   "Thank you, your newsletter subscription has been cancelled."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:125
+msgid   "Thank you. Please check your email to confirm your subscription."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:387
+msgid   "Thank you. Your subscription has been removed."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:384
+msgid   "Thank you. Your subscription is confirmed."
+msgstr  ""
+
+#: lib/admin/settings.php:181
+#, php-format
+msgid   "The %s page has been created."
+msgstr  ""
+
+#: lib/admin/settings.php:752
+msgid   "The <a href=\"https://www.itthinx.com/plugins/groups/\">Groups</a> "
+        "plugin is not activated or missing."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:261
+msgid   "The <a href=\"https://www.itthinx.com/plugins/groups/\">Groups</a> "
+        "plugin is not activated or missing. Install <em>Groups</em> to be "
+        "able to select the groups whose members should receive the "
+        "newsletter."
+msgstr  ""
+
+#: lib/admin/settings.php:152
+msgid   "The Story Editors group could not be created."
+msgstr  ""
+
+#: lib/admin/settings.php:115
+msgid   "The Story Editors group has been created."
+msgstr  ""
+
+#: lib/admin/settings.php:988
+msgid   "The accepted format is values separated by tabs, email address in "
+        "the first column, optionally the date subscribed in the second "
+        "column as YYYY-MM-DD HH:MM:SS (if not given or the format is "
+        "invalid, the current date will be used) and optionally the "
+        "subscription status in the third column (0 for Inactive, 1 for "
+        "Active). All subscribers will be marked as activated by default "
+        "(when the status is omitted). No new entries will be created for "
+        "email addresses that are already subscribed or assigned to a user "
+        "account."
+msgstr  ""
+
+#: lib/admin/settings.php:540
+#, php-format
+msgid   "The current settings of %d emails every %.2f minutes allow for a "
+        "maximum of %d emails to be sent per hour."
+msgstr  ""
+
+#: lib/admin/settings.php:542
+#, php-format
+msgid   "The current settings of %d emails every %d minutes allow for a "
+        "maximum of %d emails to be sent per hour."
+msgstr  ""
+
+#: lib/admin/settings.php:601
+msgid   "The default comment status when submitted by users on the front end."
+msgstr  ""
+
+#: lib/admin/settings.php:712
+msgid   "The group will have all capabilities needed to manage newsletters "
+        "and stories."
+msgstr  ""
+
+#: woocommerce/admin/class-groups-newsletters-woocommerce-admin.php:122
+#, php-format
+msgid   "The label text for the newsletter subscription option presented at "
+        "checkout. The default is <code>%s</code>."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:320
+#, php-format
+msgid   "The newsletter has been sent to %s."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:239
+msgid   "The number of stories to show."
+msgstr  ""
+
+#: woocommerce/admin/class-groups-newsletters-woocommerce-admin.php:111
+msgid   "The option to subscribe to newsletters at checkout is checked by "
+        "default."
+msgstr  ""
+
+#: lib/admin/settings.php:856
+msgid   "The page where visitors can subscribe and get redirected to after "
+        "activating or cancelling a newsletter subscription. Create and "
+        "select a page that contains the "
+        "<code>[groups_newsletters_activation]</code> shortcode. If the page "
+        "only contains that shortcode, they will not be able to subscribe on "
+        "that page and you should provide the "
+        "<code>[groups_newsletters_subscribe]</code> shortcode on another "
+        "page or add a widget to let visitors subscribe."
+msgstr  ""
+
+#: lib/admin/settings.php:643
+msgid   "The registration requirements for posting on stories."
+msgstr  ""
+
+#: lib/admin/settings.php:100
+msgid   "The settings have been saved."
+msgstr  ""
+
+#: lib/admin/settings.php:537
+msgid   "The settings impose an upper limit to the amount of emails that can "
+        "be sent per hour."
+msgstr  ""
+
+#: lib/admin/settings.php:259
+#, php-format
+msgid   "The test email has been sent to %s."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:619
+msgid   "There are no newsletters."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:382
+#: lib/views/class-groups-newsletters-shortcodes.php:794
+msgid   "There are no stories."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:328
+msgid   "This campaign has been executed."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:325
+#, php-format
+msgid   "This campaign is currently %s."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:372
+msgid   "This campaign is waiting to be queued."
+msgstr  ""
+
+#: lib/core/class-groups-newsletters-mailer.php:377
+msgid   "This is a test message."
+msgstr  ""
+
+#: lib/admin/settings.php:663
+msgid   "This will <strong>DELETE ALL stories, newsletters and campaigns</"
+        "strong> when the plugin is deactivated and can NOT be undone."
+msgstr  ""
+
+#: lib/admin/settings.php:790
+msgid   "This will create a page where all newsletters are listed, along with "
+        "a newsletter search form and a story tag cloud."
+msgstr  ""
+
+#: lib/admin/settings.php:911
+msgid   "This will create a text file with subscriber data."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:297
+msgid   "This will render the newsletter with all its stories, as it will be "
+        "sent to the newsletter recipients."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-subscribe-widget.php:164
+#: lib/views/class-groups-newsletters-widget.php:205
+#: lib/views/class-groups-newsletters-stories-widget.php:70
+#: lib/views/class-groups-newsletters-stories-widget.php:232
+#: lib/views/class-groups-newsletters-tags-widget.php:252
+#: lib/views/class-groups-newsletters-search-widget.php:200
+msgid   "Title"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:500
+msgid   "Uh-oh, there are no newsletters related to this campaign. You better "
+        "create a new one."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-tags-widget.php:277
+msgid   "Unit"
+msgstr  ""
+
+#: lib/core/class-groups-newsletters-newsletter.php:104
+#: lib/admin/class-groups-newsletters-subscribers-list-table.php:233
+#: lib/admin/class-groups-newsletters-admin-users.php:97
+#: lib/admin/class-groups-newsletters-admin-users.php:111
+#: lib/admin/class-groups-newsletters-admin-users.php:112
+#: lib/views/class-groups-newsletters-shortcodes.php:495
+msgid   "Unsubscribe"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:670
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:671
+msgid   "Update"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:113
+msgid   "Update Newsletter"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-subscribe-widget.php:182
+#, php-format
+msgid   "Use %sreCAPTCHA%s"
+msgstr  ""
+
+#: lib/admin/settings.php:434
+msgid   "Use the <em>From</em> Email Address as the return path."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:424
+msgid   "Use the <em>Newsletters</em> box to choose one or more newsletters, "
+        "then update the campaign."
+msgstr  ""
+
+#: lib/admin/settings.php:488
+msgid   "Username"
+msgstr  ""
+
+#: lib/admin/settings.php:716
+msgid   "Users who should be allowed to manage newsletters and stories, can "
+        "be added to the <em>Story Editors</em> group."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:202
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:203
+msgid   "View Campaign"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-story-post-type.php:140
+#: lib/ext/class-groups-newsletters-story-post-type.php:141
+msgid   "View Story"
+msgstr  ""
+
+#: woocommerce/core/class-groups-newsletters-woocommerce-checkout.php:162
+#: lib/views/class-groups-newsletters-shortcodes.php:250
+msgid   "We have received a request to subscribe this email address to our "
+        "newsletters."
+msgstr  ""
+
+#: lib/admin/settings.php:762
+msgid   "When <em>Groups</em> is installed, a <em>Story Editors</em> group "
+        "with full capabilities to manage stories can be created here."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:291
+msgid   "Whether to show the author of each story."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:305
+msgid   "Whether to show the comment count for each story."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-stories-widget.php:298
+msgid   "Whether to show the date of each story."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-widget.php:237
+msgid   "Whether to show the number of stories in a newsletter."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:412
+msgid   "While the campaign is on hold, no emails will be sent to newsletter "
+        "recipients."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-subscribe-widget.php:162
+msgid   "Widget title"
+msgstr  ""
+
+#: lib/admin/settings.php:545
+#, php-format
+msgid   "With these settings, it will take around %d hours to send out one "
+        "newsletter to 1000 recipients."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:586
+#: lib/admin/class-groups-newsletters-admin-users.php:81
+msgid   "Yes"
+msgstr  ""
+
+#: templates/email/taxonomy-newsletter.php:175
+msgid   "You are receiving this because you are subscribed to our "
+        "newsletters. You can cancel your subscription immediately by "
+        "visiting this link: [unsubscribe_link]"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:403
+msgid   "You are subscribed to our newsletters."
+msgstr  ""
+
+#: woocommerce/core/class-groups-newsletters-woocommerce-checkout.php:171
+#: lib/views/class-groups-newsletters-shortcodes.php:259
+msgid   "You can also copy it and paste it in the URL bar of your browser."
+msgstr  ""
+
+#: lib/admin/settings.php:323
+msgid   "You can send a test email to the specified email address."
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-taxonomy.php:354
+msgid   "You can send the newsletter to a specific email address to test it."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:171
+msgid   "You must provide a valid email address."
+msgstr  ""
+
+#: lib/admin/settings.php:724
+msgid   "You should only add fully trusted users to the <em>Story Editors</"
+        "em> group, as members of the group can publish stories and send out "
+        "newsletters."
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-shortcodes.php:104
+msgid   "Your email address"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:791
+msgid   "executed"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:785
+msgid   "on hold"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:782
+msgid   "pending"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-subscribe-widget.php:223
+msgid   "reCAPTCHA Options"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-subscribe-widget.php:209
+msgid   "reCAPTCHA Private Key"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-subscribe-widget.php:195
+msgid   "reCAPTCHA Public Key"
+msgstr  ""
+
+#: lib/views/class-groups-newsletters-subscribe-widget.php:237
+msgid   "reCAPTCHA Widget HTML"
+msgstr  ""
+
+#: lib/ext/class-groups-newsletters-campaign-post-type.php:788
+msgid   "running"
+msgstr  ""

@@ -1,0 +1,23 @@
+Itthinx Updates
+
+= 1.4.0 =
+* WordPress 5.5 compatible.
+* WordPress 5.6 beta compatibility tested.
+* Changed URLs to https.
+* Updated changelog format.
+* Using standard object to force update checks to avoid warnings with updaters that expect a default object.
+
+= 1.3.0 =
+* Added a logging option.
+
+= 1.2.0 =
+* Fixed filter addition and priorities.
+
+= 1.1.1 =
+* readme.txt added.
+
+= 1.1.0 =
+* New API functions added.
+
+= 1.0.0 =
+* Initial release.
